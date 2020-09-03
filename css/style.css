@@ -1,0 +1,78 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-grey-dark: #777;
+  --color-primary: #ccc;
+  --font-primary: "raleway", sans-serif;
+  --default-font-size: 1.6rem; }
+
+@font-face {
+  font-family: 'roboto';
+  src: url(../../fonts/Roboto/Roboto-Thin.ttf);
+  font-style: normal;
+  font-weight: 100; }
+
+@font-face {
+  font-family: 'roboto';
+  src: url(../../fonts/Roboto/Roboto-Light.ttf);
+  font-style: normal;
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'roboto';
+  src: url(../../fonts/Roboto/Roboto-Regular.ttf);
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'roboto';
+  src: url(../../fonts/Roboto/Roboto-Bold.ttf);
+  font-style: normal;
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'raleway';
+  src: url(../../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+  font-style: normal;
+  font-weight: 100 900;
+  font-stretch: 75% 125%; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-grey-dark); }
+
+h1 {
+  font-size: 3.2rem; }
+
+h2 {
+  font-size: 2.4rem; }
+
+h3 {
+  font-size: 1.8rem; }
+
+h4 {
+  font-size: 1.6rem; }
+
+h5 {
+  font-size: 1.32rem; }
+
+h6 {
+  font-size: 1.07rem; }
+
+p {
+  font-size: var(--default-font-size); }
